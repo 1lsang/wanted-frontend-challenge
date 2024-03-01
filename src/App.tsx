@@ -1,4 +1,3 @@
-import './App.css';
 import WantedLogo from '@/components/common/WantedLogo.tsx';
 import List from '@/components/List';
 import Form from '@/components/Form';
