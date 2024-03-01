@@ -15,7 +15,10 @@ function App() {
         </section>
         <section className="self-stretch">
           <Form>
-            <Form.Input placeholder="할 일을 입력해주세요." />
+            <Form.Input
+              placeholder="할 일을 입력해주세요."
+              onSubmit={(e) => e.preventDefault()}
+            />
             <Form.Button>추가</Form.Button>
           </Form>
         </section>
