@@ -35,7 +35,7 @@ function App() {
               onChange={(e) => setInput((e.target as HTMLInputElement).value)}
               placeholder="할 일을 입력해주세요."
             />
-            <Form.Button>추가</Form.Button>
+            <Form.Button disabled={!input}>추가</Form.Button>
           </Form>
         </section>
 
